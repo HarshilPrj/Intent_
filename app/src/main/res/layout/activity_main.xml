@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/etdemail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/etdpwd"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="5px"
+        android:id="@+id/btnlogin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Send Email"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="5px"
+        android:id="@+id/btnSemail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="open Camera"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="5px"
+        android:id="@+id/btncamera"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Call User"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="5px"
+        android:id="@+id/btncall"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Launch Website"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="5px"
+        android:id="@+id/btnLweb"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Compose SMS"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="5px"
+        android:id="@+id/btnCsms"/>
+
+
+</LinearLayout>
